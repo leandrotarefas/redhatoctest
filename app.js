@@ -5,8 +5,12 @@ app.get('/', function(req, res) {
     res.send('Hello world!\n');
   });
 
-app.get('/mars', function(req, res) {
-    res.send('Hello Mars!\n');
+  app.get('/br', function(req, res) {
+    res.send('Amo voce Maarick!\n');
+  });
+
+  app.get('/fr', function(req, res) {
+    res.send('Love you Maarick!\n');
   });
 
   app.listen(8080,function() {
